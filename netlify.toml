@@ -1,6 +1,12 @@
+
 [build]
-  command = ""
+  command = "# No build command"
   publish = "."
+
+# The following lines prevent Netlify from trying to install dependencies
+[build.environment]
+  NPM_VERSION = "8.19.2"
+  NODE_VERSION = "18.12.1"
 
 [[redirects]]
   from = "/*"
