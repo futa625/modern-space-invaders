@@ -1,1 +1,10 @@
 
+[build]
+  # このサイトは静的なので、ビルドコマンドは不要です
+  command = ""
+  publish = "."
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
