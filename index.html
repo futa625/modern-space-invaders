@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Space Invaders</title>
+    <meta property="og:title" content="Modern Space Invaders" />
+    <meta property="og:description" content="レトロなインベーダーゲームを現代風にアレンジしました。" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://modern-space-invaders.netlify.app" />
+    <meta property="og:image" content="[OGP画像のURLを入力]" />
+    <meta property="og:site_name" content="Modern Space Invaders" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5.collide2d"></script>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #000;
+            color: #fff;
+        }
+        canvas {
+            border: 2px solid #fff;
+        }
+        .menu {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .menu button {
+            margin: 10px;
+            padding: 10px 20px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="menu" class="menu">
+        <h1>Modern Space Invaders</h1>
+        <button onclick="startGame()">Play</button>
+        <button onclick="window.close()">Quit</button>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>

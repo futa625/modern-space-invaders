@@ -1,0 +1,3 @@
+([('ModernSpaceInvaders',
+   '/Users/tkfm/Downloads/Vibe Coding/開発/インベーダーゲーム/dist/ModernSpaceInvaders',
+   'EXECUTABLE')],)

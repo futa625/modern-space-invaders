@@ -1,0 +1,13 @@
+{
+  "name": "modern-space-invaders",
+  "version": "1.0.0",
+  "description": "Modern Space Invaders game",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server",
+    "dev": "live-server --entry-file=index.html"
+  },
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}
